@@ -1,0 +1,15 @@
+.ErrorFourOhFourTitle {
+    position: absolute;
+    font-size: 85px;
+    left: 900px;
+    top: 315px;
+}
+.ErrorFourOhFourSad {
+    position: absolute;
+    color: rgb(223, 223, 223);
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 30px;
+    left: 700px;
+    top: 450px;
+}
