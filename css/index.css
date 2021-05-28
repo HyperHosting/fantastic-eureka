@@ -231,3 +231,53 @@ a {
     top: 18px;
     left: 30px;
   }
+  .funcommand-sdg {
+    position: absolute;
+    height: 400px;
+    top: 725px;
+    left: 675px;
+    border-radius: 15px;
+    animation: goUpandDown 3s ease-in-out infinite; 
+  }
+  .funcommand {
+    left: 335px;
+    height: 310px;
+    position: absolute;
+    top: 825px;
+    border-radius: 5px;
+    animation: goUpandDown 3s ease-in-out infinite; 
+  }
+  
+@keyframes goUpandDown {
+  0% {
+    -webkit-transform: translatey(+60px);
+            transform: translatey(+60px);
+  }
+  50% {
+    -webkit-transform: translatey(+80px);
+            transform: translatey(+80px);
+  }
+  100% {
+    -webkit-transform: translatey(+60px);
+            transform: translatey(+60px);
+  }
+}
+
+  .funcommandtitle {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 925px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    right: 295px;
+  }
+  .funcommandDescription {
+    color: rgba(255, 255, 255, 0.774);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 955px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    right: 245px;
+  }
