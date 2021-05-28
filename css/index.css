@@ -9,6 +9,7 @@ body {
     margin: 0px auto;
     scroll-behavior: smooth;
     background-color: rgb(37, 41, 44);
+    height: 150vh;
 }
 .title {
     position: absolute;
@@ -195,3 +196,38 @@ background-color: #93a8f5;
 a {
   text-decoration: none;
 }
+.bLine {
+  position: absolute;
+  display: block;
+  color: transparent;
+  background-color: rgb(39, 44, 48);
+  height: 0.01px;
+  bottom: 9px;
+}
+::-webkit-scrollbar {
+  width: 16px;
+  background-color: var(--scrollbar);
+  cursor: pointer;
+  }
+
+/* Track */
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: rgb(54, 54, 54);
+  height: 16px;
+  background-clip: padding-box;
+  }
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-hover);
+  }
+  
+  ::-webkit-scrollbar-thumb:active {
+  background-color: var(--scrollbar-active);
+  }
+  .hmm {
+    position: absolute;
+    top: 18px;
+    left: 30px;
+  }
